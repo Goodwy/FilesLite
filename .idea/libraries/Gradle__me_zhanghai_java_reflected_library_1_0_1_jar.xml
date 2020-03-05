@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: me.zhanghai.java.reflected:library:1.0.1@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.java.reflected/library/1.0.1/2b7d52e38190232c7900055040ffbb362666472f/library-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.java.reflected/library/1.0.1/45a0eaf6a3c8bf9567ac5cbd9ce88963329cbc4e/library-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.java.reflected/library/1.0.1/b474fcaa9d84da2b584a8a3bdf30745bbf03a89f/library-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

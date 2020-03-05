@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: me.zhanghai.android.systemuihelper:library:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fa85d985e8f728d313ead2c28963778/library-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fa85d985e8f728d313ead2c28963778/library-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.android.systemuihelper/library/1.0.0/7746ae28d27d5a5e86068883e0b9d28c689a78d1/library-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.android.systemuihelper/library/1.0.0/3574a71bc50fb135015dd0c3b4ce562b2f2952f8/library-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

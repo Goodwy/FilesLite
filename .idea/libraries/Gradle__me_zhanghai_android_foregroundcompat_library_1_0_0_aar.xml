@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: me.zhanghai.android.foregroundcompat:library:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81cf8750434d305a24911862cd4e8439/library-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81cf8750434d305a24911862cd4e8439/library-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.android.foregroundcompat/library/1.0.0/72dbe649414bece08a0dd27f954202c92a530e7b/library-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.android.foregroundcompat/library/1.0.0/80c535433a6204795cce390ad3ba2c82f7d267fb/library-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

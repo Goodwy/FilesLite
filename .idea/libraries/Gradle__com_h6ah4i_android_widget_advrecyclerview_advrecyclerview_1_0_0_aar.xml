@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:1.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f13bcde00f3117a2df3f4d6d3c17f8b/advrecyclerview-1.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f13bcde00f3117a2df3f4d6d3c17f8b/advrecyclerview-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f13bcde00f3117a2df3f4d6d3c17f8b/advrecyclerview-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h6ah4i.android.widget.advrecyclerview/advrecyclerview/1.0.0/ae8c89a0df4f09724102f9b14474879c39700af5/advrecyclerview-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h6ah4i.android.widget.advrecyclerview/advrecyclerview/1.0.0/52d52576239d7ff8828610a8121e09eb2d3cf03e/advrecyclerview-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

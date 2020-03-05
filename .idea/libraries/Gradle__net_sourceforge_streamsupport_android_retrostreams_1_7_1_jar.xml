@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: net.sourceforge.streamsupport:android-retrostreams:1.7.1@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.streamsupport/android-retrostreams/1.7.1/432f40d4c6c3da3084c48d1a9b29e0f257b5e813/android-retrostreams-1.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.streamsupport/android-retrostreams/1.7.1/2aaf265852212b223969de49d9cfc637e6dff38d/android-retrostreams-1.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.streamsupport/android-retrostreams/1.7.1/cd3e94b22b71eebdffe1abea7dc2dfa967d5ca50/android-retrostreams-1.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

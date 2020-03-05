@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.ftpserver:ftplet-api:1.1.1@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ftpserver/ftplet-api/1.1.1/22e13a068e531de4108c8a89ea5d485136a34943/ftplet-api-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ftpserver/ftplet-api/1.1.1/6040d16651fdcf60d1354e865405b3fc20d04a1e/ftplet-api-1.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ftpserver/ftplet-api/1.1.1/385c715fe88b056f0db19b1171532df92ad04011/ftplet-api-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

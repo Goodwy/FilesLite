@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: me.zhanghai.android.libselinux:library:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc776acc280e9bf3219844fbb42d0e21/library-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc776acc280e9bf3219844fbb42d0e21/library-2.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.android.libselinux/library/2.0.0/3c708558dbe86a28f32c70c2d786c7cdc81a24c2/library-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.android.libselinux/library/2.0.0/34525e1f7ed5046db0d2ab041378cd814a8bfe2c/library-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

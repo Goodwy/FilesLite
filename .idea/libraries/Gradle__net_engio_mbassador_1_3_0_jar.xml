@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: net.engio:mbassador:1.3.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.engio/mbassador/1.3.0/df00b81f8efe0bfd7d0fdd63da988e2223d16a03/mbassador-1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.engio/mbassador/1.3.0/aafa5a4552fee4a5e9af9ef578c7f41dbc420681/mbassador-1.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.engio/mbassador/1.3.0/8c5b4e4a4b5a919dbe9de8ab5fb51c3ec283bbd/mbassador-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
