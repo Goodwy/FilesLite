@@ -7,7 +7,7 @@
 
 <resources>
 
-    <string name="app_name">档案 （精简版）</string>
+    <string name="app_name">文件（精简版）</string>
 
     <string name="close">关闭</string>
     <string name="copy">复制</string>
@@ -417,8 +417,9 @@
 
     <string name="about_title">关于</string>
     <string name="about_version_title">版本</string>
-	<string name="about_lite_title">这是该应用程序的免费版本。 其中没有广告，几乎所有功能都可用。 在完整版中，界面的颜色调整将可用。</string>
+    <string name="about_lite_title">这是该应用程序的免费版本。 其中没有广告，几乎所有功能都可用。 在完整版中，界面的颜色调整将可用。</string>
     <string name="about_github_title">购买完整版</string>
+    <string name="about_change_log_title">最新消息</string>
     <string name="about_licenses_title">许可证</string>
     <string name="about_privacy_policy_title">隐私权政策</string>
     <string name="about_author_title">作者</string>

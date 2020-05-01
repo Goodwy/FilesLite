@@ -110,7 +110,7 @@ package me.zhanghai.android.files.theme.custom;
 
 import androidx.annotation.ColorRes;
 import androidx.annotation.NonNull;
-import com.goodwy.files.lite.R;
+import com.goodwy.files.R;
 
 public class CustomThemeColors {
 

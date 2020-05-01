@@ -46,12 +46,7 @@ public class FileItem implements Parcelable {
         mHidden = hidden;
         mMimeType = mimeType;
     }
-
-    protected FileItem(@NonNull FileItem fileItem) {
-        this(fileItem.mPath, fileItem.mAttributes, fileItem.mSymbolicLinkTarget,
-                fileItem.mSymbolicLinkTargetAttributes, fileItem.mHidden, fileItem.mMimeType);
-    }
-
+ 
     @NonNull
     @WorkerThread
     public static FileItem load(@NonNull Path path) throws IOException {

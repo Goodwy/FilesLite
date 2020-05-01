@@ -27,16 +27,21 @@ import me.zhanghai.android.files.util.IntentUtils;
 
 public class AboutFragment extends Fragment {
 
-    private static final Uri GITHUB_URI = Uri.parse(
-            "https://play.google.com/store/apps/details?id=com.goodwy.files");
+    private static final Uri GITHUB_URI = Uri.parse("https://play.google.com/store/apps/details?id=com.goodwy.files");
 
-    private static final Uri LICENSES_URI = Uri.parse("https://github.com/zhanghai/MaterialFiles"
+    private static final Uri VERSION_URI = Uri.parse("https://play.google.com/store/apps/details?id=com.goodwy.files.lite");
+
+    private static final Uri CHANGELOG_URI = Uri.parse("https://github.com/Goodwy/FilesLite/blob/master/CHANGELOG.md");
+
+    private static final Uri LICENSES_URI = Uri.parse("https://github.com/Goodwy/FilesLite"
             + "/blob/master/app/src/main/res/raw/licenses.xml");
 
     private static final Uri PRIVACY_POLICY_URI = Uri.parse(
-            "https://sites.google.com/view/goodwy/about/privacy-policy?authuser=0");
+            "https://github.com/Goodwy/FilesLite/blob/master/PRIVACY.md");
 
-    private static final Uri AUTHOR_RESUME_URI = Uri.parse("https://github.com/zhanghai/MaterialFiles");
+    private static final Uri AUTHOR_RESUME_URI = Uri.parse("https://play.google.com/store/apps/dev?id=8268163890866913014");
+
+    private static final Uri AUTHOR_RESUME2_URI = Uri.parse("https://github.com/zhanghai/MaterialFiles");
 
     private static final Uri AUTHOR_GITHUB_URI = Uri.parse("");
 
@@ -49,12 +54,18 @@ public class AboutFragment extends Fragment {
     Toolbar mToolbar;
     @BindView(R.id.github)
     ViewGroup mGitHubLayout;
+    @BindView(R.id.version)
+    ViewGroup mVersionLayout;
+    @BindView(R.id.changelog)
+    ViewGroup mchangelogLayout;
     @BindView(R.id.licenses)
     ViewGroup mLicensesLayout;
     @BindView(R.id.privacy_policy)
     ViewGroup mPrivacyPolicyLayout;
-    @BindView(R.id.author_name2)
+    @BindView(R.id.author_name)
     ViewGroup mAuthorNameLayout;
+    @BindView(R.id.author_name2)
+    ViewGroup mAuthorNameLayout2;
     @BindView(R.id.author_github)
     ViewGroup mAuthorGitHubLayout;
     @BindView(R.id.author_google_plus)
@@ -103,6 +114,10 @@ public class AboutFragment extends Fragment {
 
         mGitHubLayout.setOnClickListener(view -> AppUtils.startActivity(IntentUtils.makeView(
                 GITHUB_URI), this));
+        mVersionLayout.setOnClickListener(view -> AppUtils.startActivity(IntentUtils.makeView(
+                VERSION_URI), this));
+        mchangelogLayout.setOnClickListener(view -> AppUtils.startActivity(IntentUtils.makeView(
+                CHANGELOG_URI), this));
         mLicensesLayout.setOnClickListener(view -> {
             // @see https://github.com/zhanghai/MaterialFiles/issues/161
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -115,6 +130,8 @@ public class AboutFragment extends Fragment {
                 PRIVACY_POLICY_URI), this));
         mAuthorNameLayout.setOnClickListener(view -> AppUtils.startActivity(IntentUtils.makeView(
                 AUTHOR_RESUME_URI), this));
+        mAuthorNameLayout2.setOnClickListener(view -> AppUtils.startActivity(IntentUtils.makeView(
+                AUTHOR_RESUME2_URI), this));
         mAuthorGitHubLayout.setOnClickListener(view -> AppUtils.startActivity(IntentUtils.makeView(
                 AUTHOR_GITHUB_URI), this));
         mAuthorGooglePlusLayout.setOnClickListener(view -> AppUtils.startActivity(

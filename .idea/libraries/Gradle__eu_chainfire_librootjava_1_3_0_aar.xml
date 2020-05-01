@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: eu.chainfire:librootjava:1.3.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f23a202e72b0f88610a8cb6a83937581/librootjava-1.3.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f23a202e72b0f88610a8cb6a83937581/librootjava-1.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67f2fef7cffa346ec17df02ef703e927/jetified-librootjava-1.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67f2fef7cffa346ec17df02ef703e927/jetified-librootjava-1.3.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/eu.chainfire/librootjava/1.3.0/7f7e8f47050003d43dd7def81795ff5e8641505/librootjava-1.3.0-javadoc.jar!/" />

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: me.zhanghai.android.effortlesspermissions:library:1.1.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6eb613c08d436bd3cee8bb47ba77d669/jetified-library-1.1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6eb613c08d436bd3cee8bb47ba77d669/jetified-library-1.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b6505aa6b2b24858c1ebecdca62d1733/jetified-library-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b6505aa6b2b24858c1ebecdca62d1733/jetified-library-1.1.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.android.effortlesspermissions/library/1.1.0/ce92c36dbb4b0071ff62c74febcae7f75d8017fb/library-1.1.0-javadoc.jar!/" />

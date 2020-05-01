@@ -112,9 +112,7 @@ public class NavigationItems {
     @Size(min = 1)
     private static List<NavigationItem> getRootItems() {
         List<NavigationItem> rootItems = new ArrayList<>();
-		if (Settings.ROOT_DIRECTORIES.getValue()) {
-        rootItems.add(new RootDirectoryRootItem());
-		}
+        if (Settings.ROOT_DIRECTORIES.getValue()) {rootItems.add(new RootDirectoryRootItem());}
         StorageManager storageManager = ContextCompat.getSystemService(AppProvider.requireContext(),
                 StorageManager.class);
         List<StorageVolume> storageVolumes = StorageManagerCompat.getStorageVolumes(storageManager);
@@ -270,6 +268,8 @@ public class NavigationItems {
 
     private static abstract class LocalRootItem extends RootItem {
 
+        protected static final String PATH_ROOT = "/";
+
         @DrawableRes
         private final int mIconRes;
         private final long mFreeSpace;
@@ -284,7 +284,7 @@ public class NavigationItems {
             if (totalSpace != 0) {
                 mFreeSpace = JavaFile.getFreeSpace(localPath);
                 mTotalSpace = totalSpace;
-            } else {
+            } else if (Objects.equals(localPath, PATH_ROOT)) {
                 // Root directory may not be an actual partition on legacy Android versions (can be
                 // a ramdisk instead). On modern Android the system partition will be mounted as
                 // root instead so let's try with the system partition again.
@@ -292,6 +292,9 @@ public class NavigationItems {
                 String systemPath = Environment.getRootDirectory().getPath();
                 mFreeSpace = JavaFile.getFreeSpace(systemPath);
                 mTotalSpace = JavaFile.getTotalSpace(systemPath);
+            } else {
+                mFreeSpace = 0;
+                mTotalSpace = 0;
             }
         }
 
@@ -308,17 +311,20 @@ public class NavigationItems {
         @Nullable
         @Override
         public String getSubtitle(@NonNull Context context) {
+            if (mTotalSpace == 0) {
+                return null;
+            }
             String freeSpace = FormatUtils.formatHumanReadableSize(mFreeSpace, context);
             String totalSpace = FormatUtils.formatHumanReadableSize(mTotalSpace, context);
             return context.getString(R.string.navigation_root_subtitle_format, freeSpace,
                     totalSpace);
         }
     }
-/* Root*/
+
     private static class RootDirectoryRootItem extends LocalRootItem {
 
         public RootDirectoryRootItem() {
-            super("/", R.drawable.device_icon_white_24dp);
+            super(PATH_ROOT, R.drawable.device_icon_white_24dp);
         }
 
         @StringRes
@@ -422,7 +428,7 @@ public class NavigationItems {
             return true;
         }
     }
-/* Add external storage*/
+
     private static class AddDocumentTreeItem extends NavigationItem {
 
         @Override

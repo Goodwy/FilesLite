@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.h6ah4i.android.materialshadowninepatch:materialshadowninepatch:1.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf3b14a2e8f930f1363cbc9743ff2e35/materialshadowninepatch-1.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf3b14a2e8f930f1363cbc9743ff2e35/materialshadowninepatch-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51be47669de89232e3ae1d0fed04d54c/jetified-materialshadowninepatch-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51be47669de89232e3ae1d0fed04d54c/jetified-materialshadowninepatch-1.0.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h6ah4i.android.materialshadowninepatch/materialshadowninepatch/1.0.0/1437df719c3c095c4ad611808d28d7396eb6b021/materialshadowninepatch-1.0.0-javadoc.jar!/" />

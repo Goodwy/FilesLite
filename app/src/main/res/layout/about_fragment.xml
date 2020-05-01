@@ -85,6 +85,7 @@
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/version"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingStart="?android:listPreferredItemPaddingStart"
@@ -132,53 +133,53 @@
                         </LinearLayout>
 
                         <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="?android:listPreferredItemPaddingStart"
-                        android:paddingEnd="?android:listPreferredItemPaddingEnd"
-                        android:paddingTop="8dp"
-                        android:paddingBottom="8dp"
-                        android:background="?selectableItemBackground"
-                        android:clickable="true"
-                        android:focusable="true"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="@dimen/icon_size"
-                            android:layout_height="@dimen/icon_size"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/information_icon_white_24dp"
-                            android:tint="?android:textColorSecondary"
-                            android:visibility="gone" />
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:paddingStart="?android:listPreferredItemPaddingStart"
+                            android:paddingEnd="?android:listPreferredItemPaddingEnd"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="8dp"
+                            android:background="?selectableItemBackground"
+                            android:clickable="true"
+                            android:focusable="true"
                             android:gravity="center_vertical"
-                            android:orientation="vertical">
+                            android:orientation="horizontal">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="@dimen/content_start_from_screen_edge_margin_minus_24dp"
-                                android:ellipsize="end"
-                                android:maxLines="1"
-                                android:text="@string/about_version_title"
-                                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            <ImageView
+                                android:layout_width="@dimen/icon_size"
+                                android:layout_height="@dimen/icon_size"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/information_icon_white_24dp"
+                                android:tint="?android:textColorSecondary"
                                 android:visibility="gone" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
                                 android:layout_height="wrap_content"
-                                android:layout_marginStart="@dimen/content_start_from_screen_edge_margin_minus_24dp"
-                                android:ellipsize="end"
-                                android:maxLines="10"
-                                android:text="@string/about_lite_title"
-                                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/content_start_from_screen_edge_margin_minus_24dp"
+                                    android:ellipsize="end"
+                                    android:maxLines="1"
+                                    android:text="@string/about_version_title"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                                    android:visibility="gone" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="0dp"
+                                    android:ellipsize="end"
+                                    android:maxLines="10"
+                                    android:text="@string/about_lite_title"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+                            </LinearLayout>
                         </LinearLayout>
-                    </LinearLayout>
 
                         <LinearLayout
                             android:id="@+id/github"
@@ -204,6 +205,33 @@
                                 android:ellipsize="end"
                                 android:maxLines="1"
                                 android:text="@string/about_github_title"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/changelog"
+                            android:layout_width="match_parent"
+                            android:layout_height="?listPreferredItemHeightSmall"
+                            android:paddingStart="?android:listPreferredItemPaddingStart"
+                            android:paddingEnd="?android:listPreferredItemPaddingEnd"
+                            android:background="?selectableItemBackground"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/icon_size"
+                                android:layout_height="@dimen/icon_size"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/information_new_icon_white_24dp"
+                                android:tint="?android:textColorSecondary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/content_start_from_screen_edge_margin_minus_24dp"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="@string/about_change_log_title"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
                         </LinearLayout>
 

@@ -10,6 +10,10 @@
 -->
 <resources>
 
+    <color name="material_dark_200">#141414</color>
+    <color name="material_dark_500">#374046</color>
+    <color name="material_dark_900">#000000</color>
+
     <color name="material_red_50">#FFEBEE</color>
     <color name="material_red_100">#FFCDD2</color>
     <color name="material_red_200">#EF9A9A</color>
@@ -255,9 +259,9 @@
     <color name="material_brown_200">#BCAAA4</color>
     <color name="material_brown_300">#A1887F</color>
     <color name="material_brown_400">#8D6E63</color>
-    <color name="material_brown_500">#141414</color> <!--795548-->
+    <color name="material_brown_500">#795548</color> <!--795548-->
     <color name="material_brown_600">#6D4C41</color>
-    <color name="material_brown_700">#000000</color> <!--5D4037-->
+    <color name="material_brown_700">#5D4037</color> <!--5D4037-->
     <color name="material_brown_800">#4E342E</color>
     <color name="material_brown_900">#3E2723</color>
 

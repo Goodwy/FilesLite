@@ -7,7 +7,7 @@
 
 <resources>
 
-    <string name="app_name">Files by Goodwy (Lite)</string>
+    <string name="app_name">Files Lite</string>
 
     <string name="close">Close</string>
     <string name="copy">Copy</string>
@@ -255,7 +255,7 @@
         <item quantity="one">%1$,d file</item>
         <item quantity="other">%1$,d files</item>
     </plurals>
-    <string name="file_list_subtitle_separator">", "</string>
+    <string name="file_list_subtitle_separator">,\u0020</string>
     <string name="file_list_action_sort_by_name">Name</string>
     <string name="file_list_action_sort_by_type">Type</string>
     <string name="file_list_action_sort_by_size">Size</string>
@@ -284,7 +284,7 @@
     <string name="file_list_action_create_file">File</string>
     <string name="file_list_action_create_directory">Folder</string>
 
-    <string name="file_item_description_separator">"    "</string>
+    <string name="file_item_description_separator">\u0020\u0020\u0020\u0020</string>
     <string name="file_item_action_open_with">Open with</string>
     <string name="file_item_action_extract">Extract</string>
     <string name="file_item_action_archive">Compress</string>
@@ -443,8 +443,45 @@
 
     <string name="about_title">About</string>
     <string name="about_version_title">Version</string>
-	<string name="about_lite_title">This is a free version of the app. There is no advertising in it and almost all the functionality is available. In the full version, the color adjustment of the interface will be available.</string>
+    <string name="about_lite_title">This is a free version of the app. There is no advertising in it and almost all the functionality is available. In the full version, the color adjustment of the interface will be available.</string>
     <string name="about_github_title">Buy the full version</string>
+    <string name="about_change_log_title">What\'s new?</string>
+    <string name="about_change_log_html_style" translatable="false">
+        body {
+            background: white;
+            color: black;
+            font-family: sans-serif;
+            margin: 0;
+            overflow-wrap: break-word;
+            padding: 12px;
+        }
+        pre {
+            background: #eeeeee;
+            padding: 12px;
+            white-space: pre-wrap;
+        }
+        a, a:link, a:visited, a:hover, a:focus, a:active {
+            color: #e91e63;
+        }
+    </string>
+    <string name="about_change_log_html_style_md2" translatable="false">
+        body {
+            background: white;
+            color: black;
+            font-family: sans-serif;
+            margin: 0;
+            overflow-wrap: break-word;
+            padding: 12px;
+        }
+        pre {
+            background: #eeeeee;
+            padding: 12px;
+            white-space: pre-wrap;
+        }
+        a, a:link, a:visited, a:hover, a:focus, a:active {
+            color: #4285f4;
+        }
+    </string>
     <string name="about_licenses_title">Licenses</string>
     <string name="about_licenses_html_style" translatable="false">
         body {

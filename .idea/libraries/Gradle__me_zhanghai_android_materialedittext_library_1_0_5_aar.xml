@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: me.zhanghai.android.materialedittext:library:1.0.5@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40b7f3620311b04b1ef17480fb67daaf/jetified-library-1.0.5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40b7f3620311b04b1ef17480fb67daaf/jetified-library-1.0.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac62b1152b8669211809dcf2304f42f6/jetified-library-1.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac62b1152b8669211809dcf2304f42f6/jetified-library-1.0.5/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.android.materialedittext/library/1.0.5/b0bcad9e134096188cf8719afe51c207fc469e89/library-1.0.5-javadoc.jar!/" />

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: de.psdev.licensesdialog:licensesdialog:2.1.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e83a1175a9c4b8bd9cf9410aa92820ac/licensesdialog-2.1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e83a1175a9c4b8bd9cf9410aa92820ac/licensesdialog-2.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9a5b9f2ef2aa54ba7708d72575be1682/jetified-licensesdialog-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9a5b9f2ef2aa54ba7708d72575be1682/jetified-licensesdialog-2.1.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config>
-        <target>android-29</target>
-      </config>
+      <config />
     </shared>
   </component>
   <component name="ChangeListManager">
@@ -15,7 +13,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_XL_API_28" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="8_Foldable_API_R" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -37,11 +35,13 @@
   <component name="ProjectId" id="1XQvrKEfKf2VPqOmsYlka0xiV25" />
   <component name="PropertiesComponent">
     <property name="ApkExportedModule" value="app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="8_Foldable_API_R" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-04-22T20:16:04.515Z" />
     <property name="ExportApk.ApkPath" value="F:\Android_Dev\Goodwy\FileManager\com.goodwy.files.lite\app" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../com.goodwy.files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AudioBooks/com.goodwy.audiobook" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -49,6 +49,9 @@
   </component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Default Config" />
+    <option name="BUILD_VARIANTS_TAB" value="Build Types" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="release" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
